@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+    <Execution>   
+         
+        <Xml_LoginWithValidUserPass>
+            <url>http://adactinhotelapp.com/</url>;
+            <username>jabbasam</username>
+            <password>123456</password>
+            <userLoc>By.Id("username")</userLoc>                
+        </Xml_LoginWithValidUserPass>  
+
+<Xml_LoginWIthInValidUserPass>
+<url>http://adactinhotelapp.com/</url>
+<username>jabbasam</username>
+<password>1234567</password>
+</Xml_LoginWIthInValidUserPass> 
+
+<Xml_Search>
+		 <url>http://adactinhotelapp.com/</url>;
+            <username>jabbasam</username>
+            <password>123456</password>
+ <location>Sydney</location>
+</Xml_Search> 
+
+    </Execution>
+</Automation>
